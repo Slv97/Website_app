@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './css/App.css'
+import Header from './Components/Header/Header';
+import Advantages from './Components/Advantages';
 
-function App() {
-  return (
-    <p>start</p>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="website_app">
+          <Header />
+          <Advantages />
+      </div>
+    );
+  }
 }
 
 export default App;

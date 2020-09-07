@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
+    font-style: 18px;
+    line-height: 26px;
+    background-color: #fff;
+}
