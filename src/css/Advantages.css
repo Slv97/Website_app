@@ -1,0 +1,162 @@
+.section.advantages {
+    display: flex;
+}
+
+.advantages_r,
+.advantages_l {
+    width: 50%;
+}
+
+.advantages_r {    
+    height: 100vh;
+    background-color: grey;
+}
+
+.advantages_r {
+    position: sticky;
+    top: 0;
+    margin-bottom: -2em;
+}
+
+.video_coffe {
+    margin-left: -45%;
+    width: 90vw;
+    position: absolute;
+}
+
+.advantages_r .advantages_r_content {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;    
+}
+
+.advantages_r_content .ico_qm {
+    transform: rotate(180deg);
+    font-size: 60px;
+    color: #fff;
+}
+
+.advantages_r_content h4,
+.advantages_r_content p {
+    font-weight: 400;
+    word-wrap: break-word;
+    background-color: rgb(189, 106, 38, .4);    
+}
+
+.advantages_r_content h4{
+    font-size: 28px;
+}
+
+.advantages_r_content p {
+    margin-top: 15px;
+}
+
+.advantages_l {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+.advantages_l_head {
+    padding: 50px 50px 50px 0;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #b8784e;  
+}
+
+.advantages_l h3 {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;  
+}
+
+.box_offer {
+    background-color: #fff;
+    max-height: 260px;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.box_offer:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.box_offer_border{
+    border: 6px double#e6e6e6;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_offer_ico {
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    height: 50px;
+    width: 50px;
+    background-color: #b8784e;    
+}
+
+.box_offer_ico.one {
+    mask-image: url(/images/local_cafe.svg);
+}
+
+.box_offer_ico.two {
+    mask-image: url(/images/thumb_up.svg);
+}
+
+.box_offer_ico.three {
+    mask-image: url(/images/percent.svg);
+}
+
+.box_offer_ico.four {
+    mask-image: url(/images/car.svg);
+}
+
+.box_offer_ico.five {
+    mask-image: url(/images/headset.svg);
+}
+
+.box_offer_ico.six {
+    mask-image: url(/images/staff.svg);
+}
+
+.box_offer_ico.seven {
+    height: auto;
+    color: #b8784e;
+    font-size: 36px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Roboto Slab', serif;
+}
+
+.box_offer_ico.eight {
+    mask-image: url(/images/quality.svg);
+}
+
+.box_offer h4 {
+    margin: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 4px solid #e6e6e6;
+}
+
+.box_offer p {
+    color: #878787;
+}
