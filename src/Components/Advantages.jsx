@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import '../css/Advantages.css'
+import '../css/Section.css'
 
 class Advantages extends Component {
     render() {
         return(
             <section className="section advantages">
-                <div className="advantages_r">
+                <div className="section_r advantages_r">
                     <div className="advantages_r_video">
                         <video className="video_coffe" src="/video/video_coffe.mp4" autoPlay muted loop poster="/images/video_coffe.jpg"></video>
                     </div>
@@ -16,10 +17,9 @@ class Advantages extends Component {
                             <p>Charlotte Eriksson</p>
                     </div>
                 </div>
-                <div className="advantages_l">
-                    <div className="advantages_l_head">
-                        <h3>Our Advantages</h3>
-                        
+                <div className="section_l advantages_l">
+                    <div className="section_l_head">
+                        <h3>Our Advantages</h3>                        
                     </div>  
                     <div className="box_offer">
                         <div className="box_offer_border">
