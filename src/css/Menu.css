@@ -1,0 +1,123 @@
+.menu_r {
+    height: 100vh;
+}
+
+.menu_r_content {
+    position: relative;
+}
+
+.menu_r_content_back {
+    position: absolute;
+    width: 50vw;    
+}
+
+.menu_r_content_logo {
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    /* margin-top: 25%;
+    margin-left: 25%; */
+    vertical-align: middle;
+}
+
+.section_l.menu {
+    background-color: #262626;
+    color: white;
+}
+
+
+
+
+
+.services ul {
+    list-style: none;
+}
+
+.services .container_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .tab-filter {
+    display: flex;
+    margin-bottom: 20px;    
+    overflow: hidden;
+}
+
+.services .tab-filter li {
+    padding: 10px 12px;
+    cursor: pointer;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.services .tab-filter li.active {
+    background-color: #b8784e;    
+}
+
+
+.services .tab-filter li:hover {
+    background-color: #ccc;    
+    color: #262626;
+}
+
+.services .tab-content > li:not(.active) {
+    display: none;
+}
+
+.services .tab-content > li ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services .tab-content > li ul li {
+    flex: 1 1;
+    padding: 20px 20px;
+    transform: scale(1);
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 40px;       
+    max-width: 260px;
+    align-items: baseline;
+    
+    border-bottom: 2px solid#878787;
+}
+
+.services .tab-content > li ul li:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.services .tab-content > li ul h3 {
+    margin-bottom: 20px;
+}
+
+.menu_prod_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu_prod {
+    font-family: 'Roboto Slab', serif; 
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.menu_prod_name {
+    font-size: 30px;
+}
+
+.menu_prod_price {
+    font-size: 18px;
+}
+
+.menu_prod_component{
+    color: #878787;
+    padding-top: 16px;
+}

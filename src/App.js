@@ -3,6 +3,7 @@ import './css/App.css'
 import Header from './Components/Header/Header';
 import Advantages from './Components/Advantages';
 import Store from './Components/Store';
+import Menu from './Components/Menu';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <Header />
           <Advantages />
           <Store />
+          <Menu />
       </div>
     );
   }
