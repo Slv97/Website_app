@@ -1,0 +1,108 @@
+.foot_r {    
+    height: 100vh;
+    background-color: grey;    
+}
+
+.section_l.foot {
+    background-color: #262626;
+    color: white;
+}
+
+.foot_l_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 80px;
+}
+
+.foot_l_content_text {
+    color: #878787;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer_bot_mail {
+    margin-bottom: 56px;
+}
+
+.footer_bot_tw,
+.footer_bot_f,
+.footer_bot_pi,
+.footer_bot_g,
+.footer_bot_vk,
+.footer_bot_inst {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    display: inline-block;
+}
+
+.footer_bot_tw:hover,
+.footer_bot_f:hover,
+.footer_bot_pi:hover,
+.footer_bot_g:hover,
+.footer_bot_vk:hover,
+.footer_bot_inst:hover {
+    background-color: #b8784e; 
+}
+
+.footer_bot_tw {
+    background-image: url(/images/tw.png);
+    background-size: 19px 16px;
+}
+
+.footer_bot_f {
+    background-image: url(/images/fb.png);
+    background-size: 12px 22px;
+}
+
+.footer_bot_pi {
+    background-image: url(/images/pi.png);
+    background-size: 17px 21px;
+}
+
+.footer_bot_g {
+    background-image: url(/images/g.png);
+    background-size: 17px 17px;
+}
+
+.footer_bot_vk {
+    background-image: url(/images/vk.png);
+    background-size: 26px 15px;
+}
+
+.footer_bot_inst {
+    background-image: url(/images/inst.png);
+    background-size: 21px 21px;
+}
+
+.foot_l_content_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 260px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 36px;
+}
+
+.box_offer_ico.nine {
+    margin-bottom: 16px;
+    mask-image: url(/images/map.svg);
+}
+
+.box_offer_ico.ten {
+    margin-bottom: 16px;
+    mask-image: url(/images/time.svg);
+}
+
+.box_offer_ico.eleven {
+    margin-bottom: 16px;
+    mask-image: url(/images/phone.svg);
+}

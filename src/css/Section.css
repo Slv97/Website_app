@@ -60,3 +60,11 @@
 .box_offer p {
     color: #878787;
 }
+
+.box_offer_ico {
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    height: 50px;
+    width: 50px;
+    background-color: #b8784e;    
+}
