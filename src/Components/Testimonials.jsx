@@ -7,7 +7,7 @@ class Testimonials extends Component {
         return(
             <section className="section testi">
                 <div className="section_r testi_r">                    
-                    <div className="Testi_r_content"> 
+                    <div className="testi_r_content"> 
                          <img src="/images/testi.jpg" alt="testimonials"/>   
                     </div>
                 </div>

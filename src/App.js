@@ -5,6 +5,7 @@ import Advantages from './Components/Advantages';
 import Store from './Components/Store';
 import Menu from './Components/Menu';
 import Testimonials from './Components/Testimonials';
+import News from './Components/News';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Store />
           <Menu />
           <Testimonials />
+          <News />
       </div>
     );
   }
