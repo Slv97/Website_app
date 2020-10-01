@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import '../css/Advantages.css'
-import '../css/Section.css'
+import '../css/Advantages.css';
+import '../css/Section.css';
+import {NavLink} from "react-router-dom";
 
 class Advantages extends Component {
     render() {
@@ -19,7 +20,8 @@ class Advantages extends Component {
                 </div>
                 <div className="section_l advantages_l">
                     <div className="section_l_head">
-                        <h3>Our Advantages</h3>                        
+                        <NavLink to='/advantages'>Our Advantages</NavLink>
+                        {/* <h3>Our Advantages</h3>                         */}
                     </div>  
                     <div className="box_offer">
                         <div className="box_offer_border">

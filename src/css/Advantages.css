@@ -57,14 +57,6 @@
     align-items: center;
 }
 
-/* .box_offer_ico {
-    mask-repeat: no-repeat;
-    mask-size: cover;
-    height: 50px;
-    width: 50px;
-    background-color: #b8784e;    
-} */
-
 .box_offer_ico.one {
     mask-image: url(/images/local_cafe.svg);
 }
