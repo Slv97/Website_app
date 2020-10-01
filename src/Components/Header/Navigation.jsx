@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import {Container, Navbar, Nav} from 'react-bootstrap';
+import P_About from '../../Pages/P_About';
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+
 
 class Navigation extends Component {
     render() {
@@ -20,7 +23,15 @@ class Navigation extends Component {
                     </Navbar.Collapse>
                 </Container>                
             </Navbar>
+            
+            <Router>
+                <Switch>
+                <Route exact path='/about' component={P_About} />
+                </Switch>            
+            </Router>
             </nav>
+
+            
                 
            
 
