@@ -21,7 +21,7 @@ class Advantages extends Component {
                 <div className="section_l advantages_l">
                     <div className="section_l_head">
                         <NavLink to='/advantages'>Our Advantages</NavLink>
-                        {/* <h3>Our Advantages</h3>                         */}
+                        {/* <h3>Our Advantages</h3>  */}
                     </div>  
                     <div className="box_offer">
                         <div className="box_offer_border">

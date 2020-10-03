@@ -2,28 +2,23 @@ import React, { Component } from 'react';
 import {BrowserRouter, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './css/App.css'
-import Header from './Components/Header/Header';
-import Advantages from './Components/Advantages';
-import Store from './Components/Store';
-import Menu from './Components/Menu';
-import Testimonials from './Components/Testimonials';
-import News from './Components/News';
-import Footer from './Components/Footer';
+
+import P_Home from './Pages/P_Home';
+
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
       <div className="website_app">
-          <Header />
-          <Advantages />
-          <Store />
-          <Menu />
-          <Testimonials />
-          <News />
-          <Footer />
+
+        <P_Home />
+
+
+        {/* <Route exact path='/' component={P_Home} /> */}
+          {/* <Header />       
           
-          <Route path='/advantages' component={Advantages} />
+          <Route path='/advantages' component={Advantages} /> */}
           
       </div>
       </BrowserRouter>

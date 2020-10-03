@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import {Container, Navbar, Nav} from 'react-bootstrap';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import P_Home from '../../Pages/P_Home';
 import P_About from '../../Pages/P_About';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import P_Menu from '../../Pages/P_Menu';
+import P_Shop from '../../Pages/P_Shop';
+import P_News from '../../Pages/P_News';
+import P_Contact from '../../Pages/P_Contact';
+
 
 
 class Navigation extends Component {
@@ -24,11 +30,16 @@ class Navigation extends Component {
                 </Container>                
             </Navbar>
             
-            <Router>
+            {/* <Router>
                 <Switch>
+                <Route exact path='/' component={P_Home} />
                 <Route exact path='/about' component={P_About} />
+                <Route exact path='/menu' component={P_Menu} />
+                <Route exact path='/shop' component={P_Shop} />
+                <Route exact path='/news' component={P_News} />
+                <Route exact path='/contact' component={P_Contact} />
                 </Switch>            
-            </Router>
+            </Router> */}
             </nav>
 
             
