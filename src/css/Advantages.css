@@ -44,7 +44,8 @@
 }
 
 .advantages_l {
-    background-color: #ededed;    
+    background-color: #ededed;
+    overflow: hidden;    
 }
 
 .box_offer_border{

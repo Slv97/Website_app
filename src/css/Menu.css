@@ -9,16 +9,20 @@
 .menu_r_content_back {
     position: absolute;
     width: 50vw;    
+    object-fit: cover;
+    height: auto;
+    width: auto;
 }
 
-.menu_r_content_logo {
+.menu_r_content_logo {    
+    margin-top: 25%;
     position: absolute;
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-    /* margin-top: 25%;
-    margin-left: 25%; */
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;  
 }
 
 .section_l.menu {

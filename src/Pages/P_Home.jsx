@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import {BrowserRouter, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
-
 
 import Header from '../Components/Header/Header';
 import Advantages from '../Components/Advantages';
@@ -23,17 +21,6 @@ export default class P_Home extends Component {
                 <News />
                 <Footer />
             </div>
-            
-        //     <BrowserRouter>
-        //     <div className="p_home">
-        //         <Header />
-        //         <Advantages />
-        //         
-          
-        //   <Route path='/advantages' component={Advantages} />
-          
-      //</div>
-      //</BrowserRouter>
             
         )
     }

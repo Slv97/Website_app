@@ -11,6 +11,11 @@
     background-color: white;    
 }
 
+/* .store_r_content > img {
+    overflow: hidden;
+    max-width: 500px;
+} */
+
 .section_l_store {
     display: flex;
 }

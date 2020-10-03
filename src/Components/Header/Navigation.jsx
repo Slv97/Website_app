@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Navbar, Nav} from 'react-bootstrap';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import P_Home from '../../Pages/P_Home';
 import P_About from '../../Pages/P_About';
 import P_Menu from '../../Pages/P_Menu';
@@ -8,11 +9,9 @@ import P_Shop from '../../Pages/P_Shop';
 import P_News from '../../Pages/P_News';
 import P_Contact from '../../Pages/P_Contact';
 
-
-
 class Navigation extends Component {
     render() {
-        return(  
+        return( 
             <nav className="nav">
             <Navbar fixed="top" collapseOnSelect expand="md">
                 <Container>
@@ -29,8 +28,9 @@ class Navigation extends Component {
                     </Navbar.Collapse>
                 </Container>                
             </Navbar>
-            
-            {/* <Router>
+
+
+            <Router>
                 <Switch>
                 <Route exact path='/' component={P_Home} />
                 <Route exact path='/about' component={P_About} />
@@ -39,34 +39,10 @@ class Navigation extends Component {
                 <Route exact path='/news' component={P_News} />
                 <Route exact path='/contact' component={P_Contact} />
                 </Switch>            
-            </Router> */}
+            </Router>
+
             </nav>
-
             
-                
-           
-
-            // <nav className="nav">
-            //     <ul>
-            //         <li><a href="#">Home</a></li>
-            //         <li><a href="#">About</a>
-            //             <ul>
-            //                 <li><a href="#">Team</a></li>
-            //                 <li><a href="#">Press</a>
-            //                     <ul>
-            //                         <li><a href="#">Free Website</a></li>
-            //                         <li><a href="#">Paid Website</a></li>
-            //                     </ul>
-            //                 </li>
-            //             <li><a href="#">Web Security</a></li>
-            //             </ul>
-            //         </li>
-            //         <li><a href="#">Menu</a></li>
-            //         <li><a href="#">Shop</a></li>
-            //         <li><a href="#">News</a></li>
-            //         <li><a href="#">Contact</a></li>
-            //     </ul>
-            // </nav>
     );
     }
 }

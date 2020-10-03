@@ -11,8 +11,8 @@ class Header extends Component {
         return(
             <header className="header">
             <Background /> 
-            <Navigation />              
-            </header>            
+                          
+            </header>        
         );
     }
 }

@@ -9,7 +9,7 @@ class Menu extends Component {
                 <div className="section_r menu_r">                    
                     <div className="menu_r_content"> 
                          <img className="menu_r_content_back" src="/images/menu.jpg" alt="menu"/>  
-                         <img className="menu_r_content_logo" src="/images/logo.png" alt="logo"/>  
+                         <div className="menu_r_content_logo"><img src="/images/logo.png" alt="logo"/></div>   
                     
                     </div>
                 </div>
