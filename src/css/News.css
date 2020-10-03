@@ -7,6 +7,12 @@
     background-color: grey;
 }
 
+.news_r_content_back {
+    object-fit: cover;
+    width: 1000px;
+    height: 1000px;
+}
+
 .news_l_content {
     display: flex;
     flex-direction: column;

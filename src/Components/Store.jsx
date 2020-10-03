@@ -8,7 +8,7 @@ class Store extends Component {
             <section className="section store">
                 <div className="section_r store_r">                    
                     <div className="store_r_content"> 
-                         <img src="/images/store.jpg" alt="store_coffe"/>   
+                         <img className="store_r_content_back" src="/images/store.jpg" alt="store_coffe"/>   
                     </div>
                 </div>
                 <div className="section_l">

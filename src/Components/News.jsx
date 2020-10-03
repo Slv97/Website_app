@@ -8,7 +8,7 @@ class News extends Component {
             <section className="section news">
                 <div className="section_r news_r">                    
                     <div className="news_r_content"> 
-                         <img src="/images/head_back2.jpg" alt="news"/>   
+                         <img className="news_r_content_back" src="/images/head_back2.jpg" alt="news"/>   
                     </div>
                 </div>
                 <div className="section_l">

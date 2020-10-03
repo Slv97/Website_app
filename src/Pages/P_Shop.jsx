@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
+import Store from '../Components/Store';
+import Footer from '../Components/Footer';
+import '../css/Pages.css';
 
 export default class P_Shop extends Component {
     render() {
         return (
-            <div>
-                P_Shop
-            </div>
+            <section className="section p_shope">
+                <Store />
+                <Footer />
+            </section>
         )
     }
 }
