@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
-import '../css/Testimonials.css'
-import '../css/Section.css'
+import '../css/Testimonials.css';
+import '../css/Section.css';
 
 class Testimonials extends Component {
     render() {

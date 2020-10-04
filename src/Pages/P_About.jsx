@@ -3,6 +3,7 @@ import '../css/Section.css';
 import '../css/Pages.css';
 import '../css/News.css';
 
+
 export default class P_About extends Component {
     render() {
         return (

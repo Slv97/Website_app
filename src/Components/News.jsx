@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
-import '../css/News.css'
-import '../css/Section.css'
+import '../css/News.css';
+import '../css/Section.css';
+import '../css/media.css';
 
 class News extends Component {
     render() {

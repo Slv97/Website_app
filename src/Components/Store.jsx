@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
-import '../css/Store.css'
-import '../css/Section.css'
+import '../css/Store.css';
+import '../css/Section.css';
 
 class Store extends Component {
     render() {

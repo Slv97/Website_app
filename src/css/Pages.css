@@ -49,8 +49,6 @@
     font-weight: bold;
 }
 
-
-
 .gallery {
     background-color: #fff;
     padding: 2%;
@@ -154,18 +152,6 @@
     text-shadow: 0 0 30px #333;
     cursor: pointer;
 }
-
-@media (max-width: 768px) {
-    .gallery li {
-        width: 100%;
-    }
-}
-/*   
-@media (max-width: 425px) {
-.gallery li {
-width: 100%;
-}
-} */
 
 .section.p_menu,
 section.p_shope {

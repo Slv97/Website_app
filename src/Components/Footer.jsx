@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
 import '../css/Footer.css'
 import '../css/Section.css'
+import '../css/media.css'
 
 class Footer extends Component {
     render() {

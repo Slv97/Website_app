@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 import '../css/Advantages.css';
 import '../css/Section.css';
-import {NavLink} from "react-router-dom";
+import '../css/media.css';
 
 class Advantages extends Component {
     render() {

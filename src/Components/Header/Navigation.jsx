@@ -13,7 +13,7 @@ class Navigation extends Component {
     render() {
         return( 
             <nav className="nav">
-            <Navbar fixed="top" collapseOnSelect expand="md">
+            <Navbar fixed="top" collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
