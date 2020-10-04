@@ -2,25 +2,25 @@
     height: 100vh;
     overflow: hidden;
     z-index: 1;
-  }
-  
-  .p_about_r_content:after {
+}
+
+.p_about_r_content:after {
     content: "";
     display: block;
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
-  }
+}
 
-  .p_about_text {
+.p_about_text {
     color: #747474;
     font-size: 36px;
     line-height: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 40px 0;
 }
 
@@ -32,8 +32,6 @@
     margin: 0 40px;
 }
 
-
-
 .section_l {
     justify-content: flex-start;
 }
@@ -42,29 +40,29 @@
     background-color: #fff;
     padding: 2%;
     border-radius: 30px;
-  }
-  
-  .gallery ul {
+}
+
+.gallery ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-  }
-  
-  .gallery li {
+}
+
+.gallery li {
     width: calc(50% - 20px);
     margin: 10px;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .gallery a {
+}
+
+.gallery a {
     display: inline-block;
-  }
-  
-  .gallery li .foto_style {
+}
+
+.gallery li .foto_style {
     height: 300px;
     width: 300px;
     background-size: cover;
@@ -73,34 +71,33 @@
     background-color: #333;
     overflow: hidden;
     border-radius: 4px;
-  }
-  
-  .foto_1 {
+}
+
+.foto_1 {
     background-image: url(/images/head_back1.jpg);
-  }
-  
-  .foto_2 {
+}
+
+.foto_2 {
     background-image: url(/images/head_back2.jpg);
-  }
-  
-  .foto_3 {
+}
+
+.foto_3 {
     background-image: url(/images/head_back3.jpg);
-  }
-  
-  .foto_4 {
+}
+
+.foto_4 {
     background-image: url(/images/foot.jpg);
-  }
-  
-  .foto_5 {
+}
+
+.foto_5 {
     background-image: url(/images/menu.jpg);
-  }
-  
-  .foto_6 {
+}
+
+.foto_6 {
     background-image: url(/images/store.jpg);
-  }
-  
-  
-  .zoomImage {
+}
+
+.zoomImage {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -113,15 +110,15 @@
     background-size: cover;
     position: center;
     overflow: hidden;
-  }
-  
-  .zoomImage img {
-      max-width: 90%;
-      max-height: 500px;
-      border-radius: 15px;
-  }
-  
-  .list_tdl_delete {
+}
+
+.zoomImage img {
+    max-width: 90%;
+    max-height: 500px;
+    border-radius: 15px;
+}
+
+.list_tdl_delete {
     position: absolute;
     right: 0;
     top: 0;
@@ -135,76 +132,90 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .list_tdl_delete:hover {
+}
+
+.list_tdl_delete:hover {
     background-color: #b41f1f;
     text-shadow: 0 0 30px #333;
     cursor: pointer;
-  }
-  
-  @media (max-width: 768px) {
-    .gallery li {
-      width: 100%;
-    }
-  }
-/*   
-  @media (max-width: 425px) {
-    .gallery li {
-      width: 100%;
-    }
-  } */
+}
 
-  .section.p_menu,
-  section.p_shope {
+@media (max-width: 768px) {
+    .gallery li {
+        width: 100%;
+    }
+}
+/*   
+@media (max-width: 425px) {
+.gallery li {
+width: 100%;
+}
+} */
+
+.section.p_menu,
+section.p_shope {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .footer_top_form {
+.p_contact {
+  background-color: #ededed;
+}
+
+.p_contact_text {
+    color: #878787;
+    padding: 0px 30px;
+}
+
+.footer_top_form {
     margin-top: 70px;
     display: flex;
-    }
-    
-    .footer_top_form_it {
+}
+
+.footer_top_form_it {
     flex: 1 1;
-    }
-    
-    .footer form input[type="text"],
-    .footer form input[type="email"] {
-    border-radius: 3px;
+}
+
+.p_contact_form {
+    width: 46vw;
+}
+
+.footer_top_form_name input, 
+.footer_top_form_email input,
+.footer_top_form_subject input {
+  border-radius: 3px;
     width: calc(100% - 40px);
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-weight: bold;
     padding-left: 20px;
     font-size: 16px;
-    border: 1px solid #222222;
-    }
-    
-    input::placeholder,
-    textarea::placeholder {
+    border: 1px solid#ededed;
+}
+
+input::placeholder,
+textarea::placeholder {
     color: #cdcdcd;
-    }
-    
-    textarea {
+}
+
+textarea {
     border-radius: 3px;
     font-weight: bold;
     padding-left: 20px;
     font-size: 19px;
-    border: 1px solid #222222;
+    border: 1px solid#ededed;
     padding-top: 20px;
     width: calc(100% - 40px);
-    }
-    
-    .button_fot {
+}
+
+.button_fot {
     width: 240px;
     height: 60px;
-    background-color: #fed136;
+    background-color: #b8784e;
     color: #fff;
     text-transform: uppercase;
     border-radius: 4px;
     border: none;
     margin-top: 10px;
     font-weight: 900;
-    }
+}
