@@ -30,6 +30,10 @@
     color: white;
 }
 
+.section_l.menu .section_l_head a {
+    color: white;
+}
+
 .services ul {
     list-style: none;
 }

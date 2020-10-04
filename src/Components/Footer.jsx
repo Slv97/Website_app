@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 import '../css/Footer.css'
 import '../css/Section.css'
 
@@ -13,10 +14,11 @@ class Footer extends Component {
                 </div>
                 <div className="section_l foot">
                     <div className="foot_l_content">
+                        <NavLink to='/'>
                         <div className="foot_l_content_logo">
                             <img  src="/images/logo.png" alt="logo"/>
                         </div>
-
+                        </NavLink>
                         <div className="foot_l_content_text">Hello! We are Beans Coffee Production, a company that is passionate about making and selling coffee with a great flavor.                        
                         </div>
                         <div className="footer_bot_mail">

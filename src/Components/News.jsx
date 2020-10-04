@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 import '../css/News.css'
 import '../css/Section.css'
 
@@ -13,12 +14,14 @@ class News extends Component {
                 </div>
                 <div className="section_l">
                     <div className="section_l_head">
-                        <h3>Latest News</h3>                                              
+                    <NavLink to='/news'>Latest News</NavLink>                                              
                     </div>                     
                     <div className="news_l_content">
+                        <NavLink to='/news'>
                         <div className="news_l_content_photo"> 
                             <img src="/images/news1.jpg" alt="news1"/>   
-                        </div>                    
+                        </div> 
+                        </NavLink>                    
                         <div className="news_l_content_head">How To Be A Hipster: A Guide For The Best Hipster Cafes In Berlin</div>
                         <div className="news_l_content_text">I often go to sleep thinking about the cup of coffee I’m going to have the next morning. I adore it! These basic rules will help you learn how to make coffee to prevent unwanted bitterness and virtually guarantee a satisfying cup of coffee every time.</div> 
                         <div className="news_content_description_aut">by Harry Lucas</div>               

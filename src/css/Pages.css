@@ -24,17 +24,32 @@
     margin: 40px 0;
 }
 
+.p_about_l_content {
+  margin: 0 40px;
+}
+
+.p_about .section_l_head,
+.p_contact .section_l_head {
+    padding: 40px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #b8784e;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+.section_l {
+  justify-content: flex-start;
+}
+
 .section_l h3 {
     font-weight: bold;
 }
 
-.p_about_l_content {
-    margin: 0 40px;
-}
 
-.section_l {
-    justify-content: flex-start;
-}
 
 .gallery {
     background-color: #fff;

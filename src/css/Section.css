@@ -21,7 +21,6 @@
     align-items: center;
 }
 
- .section_l_head,  /*Надо будет убрать .section_l_head, когда сделаю навигацию. */
 .section_l_head a {
     padding: 50px;
     margin-bottom: 50px;

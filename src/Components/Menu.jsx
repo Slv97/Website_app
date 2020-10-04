@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 import '../css/Menu.css'
 import '../css/Section.css'
 
@@ -15,7 +16,7 @@ class Menu extends Component {
                 </div>
                 <div className="section_l menu">
                     <div className="section_l_head">
-                        <h3>Menu</h3>                                              
+                    <NavLink to='/menu'>Menu</NavLink>                                              
                     </div>  
                     <div className="services">
                     <div className="container_menu">

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 import '../css/Store.css'
 import '../css/Section.css'
 
@@ -13,7 +14,7 @@ class Store extends Component {
                 </div>
                 <div className="section_l">
                     <div className="section_l_head">
-                        <h3>Our Store</h3>                                              
+                    <NavLink to='/shop'> Our Store</NavLink>     
                     </div>  
                     <div className="box_offer">
                         <p>Our online store offers a great variety of popular coffee drinks as well as our own specialty coffees. They are available for order at very affordable prices.</p>  

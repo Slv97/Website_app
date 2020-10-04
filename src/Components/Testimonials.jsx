@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 import '../css/Testimonials.css'
 import '../css/Section.css'
 
@@ -13,7 +14,7 @@ class Testimonials extends Component {
                 </div>
                 <div className="section_l">
                     <div className="section_l_head">
-                        <h3>Testimonials</h3>                                              
+                    <NavLink to='/contacts'>Testimonials</NavLink>                                              
                     </div>                     
                     <div className="testi_l_content">
                         <div className="testi_l_content_photo"> 
